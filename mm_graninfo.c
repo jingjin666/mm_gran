@@ -485,7 +485,7 @@ void gran_info(struct mm_gran *gran, struct graninfo *info)
 {
   uint32_t mask;
   uint32_t value;
-  uint16_t mxfree;
+  uint32_t mxfree;
   unsigned int nbits;
   unsigned int granidx;
   unsigned int gatidx;

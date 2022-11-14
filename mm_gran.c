@@ -71,8 +71,8 @@ struct mm_gran *gran_initialize(void *heapstart, size_t heapsize, uint8_t log2gr
     struct mm_gran    *gran;
     uintptr_t          heapend;
     uintptr_t          alignedstart;
-    unsigned int       mask;
-    unsigned int       alignedsize;
+    unsigned long      mask;
+    unsigned long      alignedsize;
     unsigned int       ngranules;
 
     /* 

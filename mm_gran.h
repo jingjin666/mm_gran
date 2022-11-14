@@ -49,7 +49,7 @@
 struct mm_gran
 {
     uint8_t    log2gran;  /* Log base 2 of the size of one granule */
-    uint16_t   ngranules; /* The total number of (aligned) granules in the heap */
+    uint32_t   ngranules; /* The total number of (aligned) granules in the heap */
     uintptr_t  heapstart; /* The aligned start of the granule heap */
     uint32_t   gat[1];    /* Start of the granule allocation table */
 };

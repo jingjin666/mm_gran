@@ -58,9 +58,9 @@
 struct graninfo
 {
   uint8_t   log2gran;  /* Log base 2 of the size of one granule */
-  uint16_t  ngranules; /* The total number of (aligned) granules in the heap */
-  uint16_t  nfree;     /* The number of free granules */
-  uint16_t  mxfree;    /* The max continous of free granules */
+  uint32_t  ngranules; /* The total number of (aligned) granules in the heap */
+  uint32_t  nfree;     /* The number of free granules */
+  uint32_t  mxfree;    /* The max continous of free granules */
 };
 
 /****************************************************************************
